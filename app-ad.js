@@ -1,0 +1,39 @@
+function allotment(){
+    const allotment = document.querySelector('#allotment');
+    const plus1 = document.querySelector('.plus1');
+    const minus1 = document.querySelector('.minus1');
+
+        allotment.classList.toggle("active");
+        plus1.classList.toggle("inactive");
+        minus1.classList.toggle("active");
+}
+
+function lastrank(){
+    const lastrank = document.querySelector('#lastrank');
+    const plus2 = document.querySelector('.plus2');
+    const minus2 = document.querySelector('.minus2');
+
+        lastrank.classList.toggle("active");
+        plus2.classList.toggle("inactive");
+        minus2.classList.toggle("active");
+}
+
+function documents(){
+    const documents = document.querySelector('#documents');
+    const plus3 = document.querySelector('.plus3');
+    const minus3 = document.querySelector('.minus3');
+
+        documents.classList.toggle("active");
+        plus3.classList.toggle("inactive");
+        minus3.classList.toggle("active");
+}
+
+function hostel(){
+    const hostel = document.querySelector('#hostel');
+    const plus4 = document.querySelector('.plus4');
+    const minus4 = document.querySelector('.minus4');
+
+        hostel.classList.toggle("active");
+        plus4.classList.toggle("inactive");
+        minus4.classList.toggle("active");
+}
