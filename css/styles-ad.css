@@ -99,7 +99,7 @@ h1{
 h3{
     color: #BA0202;
     font-family: Axiforma;
-    font-size: 16px;
+    font-size: 3.2vw;
     font-weight: 400;
 }
 
@@ -108,7 +108,7 @@ p{
     font-weight: 100;
     padding-top: 13px;
     padding-bottom: 13px;
-    font-size: 12px;
+    font-size: 2.3vw;
 }
 
 section{
@@ -145,17 +145,23 @@ hr{
     color: grey;
 
 }
-
+#doc{
+    font-weight: 200;
+}
 footer{
     justify-content: center;
     align-items: center;
 }
 
 .phone{
-    display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+.centre{
+    justify-content: center;
 }
 
 #width{
@@ -196,4 +202,26 @@ tr:nth-child(even) {
 
 iframe{
     width: 100%;
+}
+
+
+
+@media screen and ( min-width:1000px){
+
+    h3{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    header{
+        margin: 1% 0 1% 0;
+    }
+
+    .content{
+        margin: 15px 5% 15px 5%;
+    }
+
 }

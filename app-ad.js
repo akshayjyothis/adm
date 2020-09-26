@@ -37,3 +37,43 @@ function hostel(){
         plus4.classList.toggle("inactive");
         minus4.classList.toggle("active");
 }
+
+function union(){
+    const union = document.querySelector('#union');
+    const plus5 = document.querySelector('.plus5');
+    const minus5 = document.querySelector('.minus5');
+
+        union.classList.toggle("active");
+        plus5.classList.toggle("inactive");
+        minus5.classList.toggle("active");
+}
+
+function keep(){
+    const keep = document.querySelector('#keep');
+    const plus6 = document.querySelector('.plus5');
+    const minus6 = document.querySelector('.minus5');
+
+        keep.classList.toggle("active");
+        plus6.classList.toggle("inactive");
+        minus6.classList.toggle("active");
+}
+
+function mens(){
+    const mens = document.querySelector('#mens');
+    const plusm = document.querySelector('.plus5');
+    const minusm = document.querySelector('.minus5');
+
+        mens.classList.toggle("active");
+        plusm.classList.toggle("inactive");
+        minusm.classList.toggle("active");
+}
+
+function ladies(){
+    const ladies = document.querySelector('#ladies');
+    const plusl = document.querySelector('.plusl');
+    const minusl = document.querySelector('.minusl');
+
+        ladies.classList.toggle("active");
+        plusl.classList.toggle("inactive");
+        minusl.classList.toggle("active");
+}
