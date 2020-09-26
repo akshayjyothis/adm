@@ -204,6 +204,11 @@ iframe{
     width: 100%;
 }
 
+a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: #BA0202;
+}
 
 
 @media screen and ( min-width:1000px){
