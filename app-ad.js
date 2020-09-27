@@ -77,3 +77,23 @@ function ladies(){
         plusl.classList.toggle("inactive");
         minusl.classList.toggle("active");
 }
+
+function pages(){
+    const pages = document.querySelector('#pages');
+    const plus7 = document.querySelector('.plus7');
+    const minus7 = document.querySelector('.minus7');
+
+        pages.classList.toggle("active");
+        plus7.classList.toggle("inactive");
+        minus7.classList.toggle("active");
+}
+
+function activities(){
+    const activities = document.querySelector('#activities');
+    const plus8 = document.querySelector('.plus8');
+    const minus8 = document.querySelector('.minus8');
+
+        activities.classList.toggle("active");
+        plus8.classList.toggle("inactive");
+        minus8.classList.toggle("active");
+}
