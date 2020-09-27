@@ -50,8 +50,8 @@ function union(){
 
 function keep(){
     const keep = document.querySelector('#keep');
-    const plus6 = document.querySelector('.plus5');
-    const minus6 = document.querySelector('.minus5');
+    const plus6 = document.querySelector('.plus6');
+    const minus6 = document.querySelector('.minus6');
 
         keep.classList.toggle("active");
         plus6.classList.toggle("inactive");
@@ -60,8 +60,8 @@ function keep(){
 
 function mens(){
     const mens = document.querySelector('#mens');
-    const plusm = document.querySelector('.plus5');
-    const minusm = document.querySelector('.minus5');
+    const plusm = document.querySelector('.plusm');
+    const minusm = document.querySelector('.minusm');
 
         mens.classList.toggle("active");
         plusm.classList.toggle("inactive");
