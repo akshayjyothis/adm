@@ -115,9 +115,9 @@ p{
     color: grey;
 }
 
-section{
+/* section{
 
-}
+} */
 
 .gec-thrissur{
     margin: 6% 5% 1% 5%;
@@ -279,7 +279,19 @@ textarea{
     margin-top: 10px;
 }
 
+.hostel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1.7px solid black;
+    margin-bottom: 25px;
+}
 
+.hostel-image{
+    height: auto;
+    width: 100%;
+}
 
 @media screen and ( min-width:1000px){
 
@@ -298,5 +310,7 @@ textarea{
     .content{
         margin: 15px 5% 15px 5%;
     }
+    
 
 }
+
