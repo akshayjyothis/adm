@@ -7,6 +7,17 @@ function allotment(){
         plus1.classList.toggle("inactive");
         minus1.classList.toggle("active");
 }
+function Scholar(){
+    const Scholar = document.querySelector('#Scholar');
+    const plus9 = document.querySelector('.plus9');
+    const minus9 = document.querySelector('.minus9');
+    
+        Scholar.classList.toggle("active");
+        plus9.classList.toggle("inactive");
+        minus9.classList.toggle("active");
+}
+
+
 
 function lastrank(){
     const lastrank = document.querySelector('#lastrank');
